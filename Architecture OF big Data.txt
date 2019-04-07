@@ -110,7 +110,7 @@ bat.G_old
 DISTRIBUTE BY teamID;
 
 
->>LOAD DATA LOCAL INPATH '/home/cloudera/Desktop/BDA/Desktop/DataFiles/Batting.csv' OVERWRITE INTO TABLE batting_hive;
+>>LOAD DATA LOCAL INPATH '/home/cloudera/Desktop/BDA/DataFiles/Batting.csv' OVERWRITE INTO TABLE batting_hive;
 
 
 d) Extract the details on player "aaronha01" ###
